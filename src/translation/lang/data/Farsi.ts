@@ -1,0 +1,62 @@
+import { ILangValues } from '../basics/ILangValues';
+
+const Farsi: ILangValues = {
+  Tasks: 'کارها',
+  Task: 'کار',
+  All: 'همه',
+  TaskTitle: 'عنوان',
+  Emergency: 'فوری',
+  Calls: 'تماسها',
+  List: 'لیست',
+  Edit: 'ویرایش',
+  Folder: 'کارتابل',
+  From: 'از',
+  Report: 'گزارش',
+  Tree: 'درختچه',
+  Archive: 'بایگانی',
+  UnArchive: 'غیربایگانی',
+  Done: 'انجام شد',
+  UnDone: 'انجام نشد',
+  Add: 'افزودن',
+  Cancel: 'لغو',
+  Delete: 'حذف',
+  Dashboard: 'خانه',
+  Save: 'ذخیره',
+  Title: 'عنوان',
+  Count: 'تعداد',
+  Unit: 'واحد',
+  TaskType: 'نوع کار',
+  DeadLine: 'سر رسید',
+  Description: 'توضیجات',
+  Optional: '(اختیاری)',
+  Details: 'جزئیات',
+  Call: 'تماس',
+  Shopping: 'خرید',
+  Requirement: 'پیش نیاز',
+  payment: 'پرداخت',
+  Yes: 'بله',
+  No: 'نه',
+  to: 'تا',
+  AncestorHierarchy: 'اجداد',
+  DaddyTask: 'پدر',
+  Unspecified: 'نامشخص',
+  Status: 'وضعیت',
+  Select_an_option: 'انتخاب کنید',
+  Pick_a_date: "تاریخ را مشخص کنید",
+
+  Massages: {
+    This_task_is_done: 'این کار مختومه است',
+    To_add_subtasks_you_need_to_undo_it: 'برای افزودن کارهای جدید ذیل این کار وضعیتش را یه انجام نداده تغییر دهید',
+    Undo_this_task: 'تغییر به انجام نداده',
+    To_add_shopping_items_enter_the_task_after_you_created: 'پس از ایجاد لیست خرید وارد آن شوید و آیتم های خرید را اضافه کنید',
+    Hit_Add_to_add: `دگمه افزودن را بزنید`,
+    There_are_no_Tasks: 'هنوز کاری اضافه نکرده اید',
+    Start_typing_to_add_a_caption: 'توضیحات...',
+    This_task_has_subtasks: 'این کار شامل اجزایی است',
+    Delete_this: 'حذف این مورد؟'
+  },
+  unitList: {
+    Number: 'تعداد'
+  }
+};
+export default Farsi;
